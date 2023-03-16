@@ -1,5 +1,6 @@
 import './App.css';
-import TemperatureController from './projects/06-temperature-controller/TemperatureController';
+import DarkMode from './projects/07-dark-mode/DarkMode';
+// import TemperatureController from './projects/06-temperature-controller/TemperatureController';
 // import RandomizeColors from './projects/02-randomize-colors/RandomizeColors';
 // import LikePhotoApp from './projects/03-like-my-photo/LikePhotoApp';
 // import EsignatureApp from './projects/01-e-signature-app/EsignatureApp';
@@ -14,7 +15,8 @@ function App() {
       {/* <LikePhotoApp /> */}
       {/* <Testimonials /> */}
       {/* <Alerts /> */}
-      <TemperatureController />
+      {/* <TemperatureController /> */}
+      <DarkMode />
     </div>
   );
 }
