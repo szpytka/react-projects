@@ -59,7 +59,7 @@ export default function SlideToUnlock() {
         <LockSlider
           width={'250px'}
           handleInput={handleLockSliderInput}
-          value={lockSliderValue}
+          sliderValue={lockSliderValue}
         />
       ) : (
         <AiFillUnlock className="unlockIcon" onClick={lockScreen} />

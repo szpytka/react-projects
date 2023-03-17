@@ -1,5 +1,7 @@
 import './App.css';
-import SlideToUnlock from './projects/08-slide-to-unlock/SlideToUnlock';
+import HiddenSearchBar from './projects/10-hidden-search-bar/HiddenSearchBar';
+// import SlideToGrow from './projects/09-slide-to-grow/SlideToGrow';
+// import SlideToUnlock from './projects/08-slide-to-unlock/SlideToUnlock';
 // import DarkMode from './projects/07-dark-mode/DarkMode';
 // import TemperatureController from './projects/06-temperature-controller/TemperatureController';
 // import RandomizeColors from './projects/02-randomize-colors/RandomizeColors';
@@ -18,7 +20,9 @@ function App() {
       {/* <Alerts /> */}
       {/* <TemperatureController /> */}
       {/* <DarkMode /> */}
-      <SlideToUnlock />
+      {/* <SlideToUnlock /> */}
+      {/* <SlideToGrow /> */}
+      <HiddenSearchBar />
     </div>
   );
 }
