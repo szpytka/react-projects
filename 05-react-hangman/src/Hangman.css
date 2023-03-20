@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .Hangman {
   width: 400px;
   color: black;
@@ -12,10 +16,9 @@
 }
 
 .Hangman h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 100;
-  margin-bottom: 0.1em;
-  margin-top: 0;
+  margin: 0.2em 0;
 }
 
 .Hangman-word {
@@ -55,4 +58,17 @@
   background: #bdbdbd;
   color: #eeeeee;
   box-shadow: 0 6px #9e9e9e;
+  cursor: auto;
+}
+
+#reset {
+  width: auto;
+  display: none;
+  margin: 20px auto;
+  background: #279bb0;
+  box-shadow: 0 6px #1f88a2;
+}
+
+#reset:hover {
+  background-color: #1f88a2;
 }
