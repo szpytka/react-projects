@@ -6,6 +6,7 @@
   position: relative;
   cursor: pointer;
   margin-bottom: -3.5px;
+  overflow-x: hidden;
 }
 
 .copy-button {
